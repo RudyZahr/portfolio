@@ -25,7 +25,6 @@ ul {
 }
 
 li {
-    display: inline-block;
     color: seashell;
     padding: 1rem 2rem;
     font-size: 2rem;
@@ -100,3 +99,26 @@ footer {
     font-size: 1.5rem;
     margin-right: 1%;
 }
+
+@media only screen and (min-width: 700px) {
+    li {
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (max-width: 699px){
+    
+    ul {
+        list-style: none;
+        margin-top: 0;
+    }
+    
+    li {
+        color: seashell;
+        padding: 1rem 2rem;
+        font-size: 2rem;
+    }
+
+}
+
