@@ -95,9 +95,24 @@ details p {
 /* Footer style */
 
 footer {
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    
     font-size: 1.5rem;
     margin-right: 1%;
+}
+
+#theme {
+    
+    width: 10%;
+    margin-top: 2rem;
+    background-color: #A58961;
+    color: seashell;
+    font-family: Oswald, sans-serif;
+    font-size: 1.3rem;
 }
 
 @media only screen and (min-width: 700px) {
